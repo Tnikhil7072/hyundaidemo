@@ -1,0 +1,17 @@
+<sly data-sly-use.mediatype="com.hyundai.core.models.MediaUploadModel"
+ data-sly-use.template="core/wcm/components/commons/v1/templates.html"/>
+
+<div data-sly-test="${mediatype.fileReference}" class="cmp-fileupload">
+<img src="${mediatype.fileReference}" width="300px" height="300px">
+
+  <div data-sly-test="${mediatype.mediaFile}">
+      <video controls>
+        <source src="${mediatype.mediaFile}" type="video/mp4">
+      </video>
+</div>
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!mediatype.fileReference, classAppend='cmp-fileupload'}"/>
+
+
+
+

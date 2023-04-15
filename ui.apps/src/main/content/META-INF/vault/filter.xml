@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/hyundaidemo/clientlibs"/>
+    <filter root="/apps/hyundaidemo/components"/>
+    <filter root="/apps/hyundaidemo/i18n"/>
+</workspaceFilter>

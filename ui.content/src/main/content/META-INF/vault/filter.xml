@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/hyundaidemo" mode="merge"/>
+    <filter root="/content/hyundaidemo" mode="merge"/>
+    <filter root="/content/dam/hyundaidemo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/hyundaidemo" mode="merge"/>
+</workspaceFilter>

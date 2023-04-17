@@ -1,0 +1,15 @@
+<div data-sly-use.dropdown = "com.hyundai.core.models.DynamicDropModel"
+ data-sly-use.template="core/wcm/components/commons/v1/templates.html"/>
+
+<sly data-sly-test="${properties.title}" class="cmp-dropdown">
+<h3>City: ${properties.title}</h3>
+</sly>
+<select>
+    <option>Select State</option>
+    <sly data-sly-list.state="${dropdown.getState}">
+        <option value="${state.label}">${state.value}</option>
+    </sly>
+</select>
+</sly>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!properties.title, classAppend='cmp-dropdown'}"/>
